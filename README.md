@@ -9,14 +9,14 @@ $ rake
 ```
 
 ##Models
-* Restaurant
+* **Restauranti**
   * name
   * address
   * city
   * state
   * zip code
   * description (optional)
-* Review
+* **Review**
   * restaurant ID
   * rating (1-5)
   * review_body
