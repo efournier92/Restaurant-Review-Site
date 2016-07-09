@@ -1,19 +1,16 @@
-### Information
-Create a Rails application that allows users to view restaurants and corresponding reviews about each one made by anonymous site visitors.
+#Restaurant Review Site
+This is a practice application I made while I was a student at Launch Adacemy in Boston. I built it to practice developing database schema and building a full Rails app as efficiently as possible. The whole site took only a couple hours. The assignment was to Create a Rails application that allows users to view restaurants and corresponding reviews about each one made by anonymous site visitors.
 
-### Getting Set up
-* To get started, run the following commands in the `restaurant-reviews` directory, you should see 8 failing feature tests:
-
+###Setup Instructions
 ```no-highlight
-$ et get restaurant-reviews
 $ cd restaurant-reviews
 $ bundle
 $ rake
 ```
 
-For this challenge assume all restaurants and reviews are submitted anonymously (user authentication is **not** required).
+*All features are backed by RSpec/Capybara tests, located in the `spec` folder.*
 
-### Meeting Expectations Requirements
+##Features
 Acceptance tests have been written for you to build this restaurant review app. Run the test suite with `rake` and let the test errors guide your development and code implementation. Your first submission should satisfy the following requirements:
 
 * A restaurant must have a name, address, city, state, and zip code. It can optionally have a description.
