@@ -5,3 +5,8 @@ body {
   text-align: center;
 }
 
+.navbar {
+  width: 100%;
+  text-align: left;
+  color: #fff;
+}

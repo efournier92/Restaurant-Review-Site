@@ -13,9 +13,10 @@
       <%= content_tag(:div, msg, class: "alert alert-#{name}") %>
     <% end %>
 
-    <%= link_to 'Categories', categories_path %>
-
-  <%= yield %>
+    <div class="navbar">
+      <%= link_to 'View By Category', categories_path %>
+    </div>
+    <%= yield %>
   </body>
 
 </html>
