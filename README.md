@@ -9,7 +9,7 @@ $ rake
 ```
 
 ##Models
-* **Restauranti**
+* **Restaurant**
   * name
   * address
   * city
@@ -32,7 +32,7 @@ $ rake
 * User sees error message if form is filled out incorrectly
 * Visiting the `/restaurants/10/reviews/new` should display a form for creating a new review for a restaurant with ID = 10
 * Visiting the `/restaurants/10` path should also include all reviews for a restaurant with ID = 10
-* Clicking categories path in header displays the name of all categories.
+* Clicking categories path in header displays the name of all categories
 * All categories have an associated show page, accessible via categories index
 * Restaurant show page displays category
 * Category is set via the new restaurant form
